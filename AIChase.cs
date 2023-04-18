@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class AIChase : MonoBehaviour
 {
+
+    //This is a test to see if I know how to use GIT
     public GameObject player;
     public float speed;
     public float turnSpeed;
