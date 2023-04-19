@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: 
+  m_EditorClassIdentifier: com.spoiledcat.git.ui:Unity.VersionControl.Git:GitStatusCache
+  cacheType: 6
+  lastUpdatedAtString: 2023-04-19T09:53:33.438-04:00
+  initializedAtString: 2023-04-19T09:53:14.741-04:00
+  entries:
+  - path: .DS_Store
+    fullPath: /Users/tiberiusshaub/Documents/files/works/unity/Rollaball copy/.DS_Store
+    projectPath: .DS_Store
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: mono_crash.mem.17138.1.blob
+    fullPath: /Users/tiberiusshaub/Documents/files/works/unity/Rollaball copy/mono_crash.mem.17138.1.blob
+    projectPath: mono_crash.mem.17138.1.blob
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Packages/manifest.json
+    fullPath: /Users/tiberiusshaub/Documents/files/works/unity/Rollaball copy/Packages/manifest.json
+    projectPath: Packages/manifest.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Packages/packages-lock.json
+    fullPath: /Users/tiberiusshaub/Documents/files/works/unity/Rollaball copy/Packages/packages-lock.json
+    projectPath: Packages/packages-lock.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: ProjectSettings/PackageManagerSettings.asset
+    fullPath: /Users/tiberiusshaub/Documents/files/works/unity/Rollaball copy/ProjectSettings/PackageManagerSettings.asset
+    projectPath: ProjectSettings/PackageManagerSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: ProjectSettings/ProjectSettings.asset
+    fullPath: /Users/tiberiusshaub/Documents/files/works/unity/Rollaball copy/ProjectSettings/ProjectSettings.asset
+    projectPath: ProjectSettings/ProjectSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3

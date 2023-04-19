@@ -1,0 +1,185 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - .collabignore
+    - Assets/TextMesh Pro.meta
+    - Assets/TextMesh Pro/Documentation.meta
+    - Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+    - Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta
+    - Assets/TextMesh Pro/Fonts.meta
+    - Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+    - Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta
+    - Assets/TextMesh Pro/Resources.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset.meta
+    - Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+    - Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta
+    - Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+    - Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta
+    - Assets/TextMesh Pro/Resources/Sprite Assets.meta
+    - Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+    - Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta
+    - Assets/TextMesh Pro/Resources/Style Sheets.meta
+    - Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+    - Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta
+    - Assets/TextMesh Pro/Resources/TMP Settings.asset
+    - Assets/TextMesh Pro/Resources/TMP Settings.asset.meta
+    - Assets/TextMesh Pro/Shaders.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Sprite.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMPro.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta
+    - Assets/TextMesh Pro/Sprites.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+    - Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne.json
+    - Assets/TextMesh Pro/Sprites/EmojiOne.json.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne.png
+    - Assets/TextMesh Pro/Sprites/EmojiOne.png.meta
+    - Assets/input.meta
+    - Assets/input/Rollaball.inputactions
+    - Assets/input/Rollaball.inputactions.meta
+    - Assets/materials.meta
+    - Assets/materials/Background 1.mat
+    - Assets/materials/Background 1.mat.meta
+    - Assets/materials/Background.mat
+    - Assets/materials/Background.mat.meta
+    - Assets/materials/player.mat
+    - Assets/materials/player.mat.meta
+    - Assets/materials/walls.mat
+    - Assets/materials/walls.mat.meta
+    - Assets/prefabs.meta
+    - Assets/prefabs/pickup.prefab
+    - Assets/prefabs/pickup.prefab.meta
+    - Assets/scenes.meta
+    - Assets/scenes/minigame.meta
+    - Assets/scenes/minigame.unity
+    - Assets/scenes/minigame.unity.meta
+    - Assets/scenes/minigame/GlobalVolumeProfile.asset
+    - Assets/scenes/minigame/GlobalVolumeProfile.asset.meta
+    - Assets/scenes/minigame/Volume.png
+    - Assets/scenes/minigame/Volume.png.meta
+    - Assets/scenes/minigame/VolumeProfileAsset.png
+    - Assets/scenes/minigame/VolumeProfileAsset.png.meta
+    - Assets/scripts.meta
+    - Assets/scripts/cameraController.cs
+    - Assets/scripts/cameraController.cs.meta
+    - Assets/scripts/playerController.cs
+    - Assets/scripts/playerController.cs.meta
+    - Assets/scripts/rotator.cs
+    - Assets/scripts/rotator.cs.meta
+    - Assets/template.meta
+    - Assets/template/Readme.asset
+    - Assets/template/Readme.asset.meta
+    - Assets/template/Scenes.meta
+    - Assets/template/Scenes/SampleScene.unity
+    - Assets/template/Scenes/SampleScene.unity.meta
+    - Assets/template/Settings.meta
+    - Assets/template/Settings/SampleSceneProfile.asset
+    - Assets/template/Settings/SampleSceneProfile.asset.meta
+    - Assets/template/Settings/URP-Balanced-Renderer.asset
+    - Assets/template/Settings/URP-Balanced-Renderer.asset.meta
+    - Assets/template/Settings/URP-Balanced.asset
+    - Assets/template/Settings/URP-Balanced.asset.meta
+    - Assets/template/Settings/URP-HighFidelity-Renderer.asset
+    - Assets/template/Settings/URP-HighFidelity-Renderer.asset.meta
+    - Assets/template/Settings/URP-HighFidelity.asset
+    - Assets/template/Settings/URP-HighFidelity.asset.meta
+    - Assets/template/Settings/URP-Performant-Renderer.asset
+    - Assets/template/Settings/URP-Performant-Renderer.asset.meta
+    - Assets/template/Settings/URP-Performant.asset
+    - Assets/template/Settings/URP-Performant.asset.meta
+    - Assets/template/TutorialInfo.meta
+    - Assets/template/TutorialInfo/Icons.meta
+    - Assets/template/TutorialInfo/Icons/URP.png
+    - Assets/template/TutorialInfo/Icons/URP.png.meta
+    - Assets/template/TutorialInfo/Layout.wlt
+    - Assets/template/TutorialInfo/Layout.wlt.meta
+    - Assets/template/TutorialInfo/Scripts.meta
+    - Assets/template/TutorialInfo/Scripts/Editor.meta
+    - Assets/template/TutorialInfo/Scripts/Editor/ReadmeEditor.cs
+    - Assets/template/TutorialInfo/Scripts/Editor/ReadmeEditor.cs.meta
+    - Assets/template/TutorialInfo/Scripts/Readme.cs
+    - Assets/template/TutorialInfo/Scripts/Readme.cs.meta
+    - Assets/template/UniversalRenderPipelineGlobalSettings.asset
+    - Assets/template/UniversalRenderPipelineGlobalSettings.asset.meta
+    - Packages/manifest.json
+    - Packages/packages-lock.json
+    - ProjectSettings/AudioManager.asset
+    - ProjectSettings/ClusterInputManager.asset
+    - ProjectSettings/DynamicsManager.asset
+    - ProjectSettings/EditorBuildSettings.asset
+    - ProjectSettings/EditorSettings.asset
+    - ProjectSettings/GraphicsSettings.asset
+    - ProjectSettings/InputManager.asset
+    - ProjectSettings/MemorySettings.asset
+    - ProjectSettings/NavMeshAreas.asset
+    - ProjectSettings/Physics2DSettings.asset
+    - ProjectSettings/PresetManager.asset
+    - ProjectSettings/ProjectSettings.asset
+    - ProjectSettings/ProjectVersion.txt
+    - ProjectSettings/QualitySettings.asset
+    - ProjectSettings/TagManager.asset
+    - ProjectSettings/TimeManager.asset
+    - ProjectSettings/UnityConnectSettings.asset
+    - ProjectSettings/VFXManager.asset
+    - ProjectSettings/VersionControlSettings.asset
+    - 
+    m_Values: 01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+  RevisionSummary: 
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 0
