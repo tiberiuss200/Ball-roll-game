@@ -13,17 +13,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: com.spoiledcat.git.ui:Unity.VersionControl.Git:BranchesCache
   cacheType: 2
-  lastUpdatedAtString: 2023-04-20T08:36:46.677-04:00
-  initializedAtString: 2023-04-20T08:27:10.524-04:00
+  lastUpdatedAtString: 2023-04-20T18:27:54.684-04:00
+  initializedAtString: 2023-04-20T18:27:50.973-04:00
   localBranches:
   - name: main
     tracking: origin/main
   remoteBranches:
   - name: origin/HEAD
     tracking: '[None]'
+  - name: origin/main
+    tracking: '[None]'
   remotes:
   - name: origin
-    url: https://github.com/tiberiuss200/Roll-a-ball.git
+    url: https://github.com/tiberiuss200/Roll-a-ball
     login: 
     user: 
     host: 
@@ -36,7 +38,7 @@ MonoBehaviour:
     - name: main
       remote:
         name: origin
-        url: https://github.com/tiberiuss200/Roll-a-ball.git
+        url: https://github.com/tiberiuss200/Roll-a-ball
       trackingBranch: main
   remoteConfigBranches:
     keys:
@@ -44,16 +46,22 @@ MonoBehaviour:
     subKeys:
     - Values:
       - HEAD
+      - main
     subKeyValues:
     - Values:
       - name: HEAD
         remote:
           name: origin
-          url: https://github.com/tiberiuss200/Roll-a-ball.git
+          url: https://github.com/tiberiuss200/Roll-a-ball
+        trackingBranch: 
+      - name: main
+        remote:
+          name: origin
+          url: https://github.com/tiberiuss200/Roll-a-ball
         trackingBranch: 
   configRemotes:
     keys:
     - origin
     values:
     - name: origin
-      url: https://github.com/tiberiuss200/Roll-a-ball.git
+      url: https://github.com/tiberiuss200/Roll-a-ball
