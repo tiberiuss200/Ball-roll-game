@@ -13,26 +13,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: com.spoiledcat.git.ui:Unity.VersionControl.Git:RepositoryInfoCache
   cacheType: 1
-  lastUpdatedAtString: 2023-04-19T09:53:13.947-04:00
-  initializedAtString: 2023-04-19T09:53:13.947-04:00
+  lastUpdatedAtString: 2023-04-20T08:16:26.806-04:00
+  initializedAtString: 2023-04-20T08:16:26.806-04:00
   currentGitRemote:
     name: origin
-    url: github.com/tiberiuss200/Roll-a-ball
+    url: https://github.com/tiberiuss200/Roll-a-ball.git
     login: 
     user: 
     host: 
     function: 0
     token: 
   currentGitBranch:
-    name: master
-    tracking: 
+    name: main
+    tracking: origin/main
   currentConfigBranch:
-    name: master
+    name: main
     remote:
-      name: 
-      url: 
-    trackingBranch: 
+      name: origin
+      url: https://github.com/tiberiuss200/Roll-a-ball.git
+    trackingBranch: main
   currentConfigRemote:
     name: origin
-    url: github.com/tiberiuss200/Roll-a-ball
+    url: https://github.com/tiberiuss200/Roll-a-ball.git
   currentHead: 
