@@ -1,3 +1,24 @@
+/*******************************************************************************************************
+
+HOW TO USE:
+
+The cat must be on the "Enemy" layer
+Every wall must have a "Walls" tag
+The hamster must have the "Player" tag
+
+--------------------------------------------------------------------------------------------------------
+
+Speed will change the speed the cat runs in
+
+See Distance will change the distance at which the cat can start chasing the player
+
+Turn Speed will change how fast the cat turns around
+
+Chase Time will change for how long the cat chases the player after they go around a corner
+
+Make sure the enemy layer is set to a new layer “Enemy”
+
+*********************************************************************************************************/
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -149,3 +170,6 @@ public class AIChase : MonoBehaviour
 
     }
 }
+
+
+
