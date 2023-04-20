@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: com.spoiledcat.git.ui:Unity.VersionControl.Git:GitStatusCache
   cacheType: 6
-  lastUpdatedAtString: 2023-04-20T18:28:46.512-04:00
+  lastUpdatedAtString: 2023-04-20T18:29:05.617-04:00
   initializedAtString: 2023-04-20T18:26:10.344-04:00
   entries:
   - path: unity-project-2\Assets\Models.meta
@@ -226,12 +226,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: unity-project-2\Library\ArtifactDB
-    fullPath: C:\Users\dreha\source\repos\Roll-a-ball\unity-project-2\Library\ArtifactDB
-    projectPath: Library\ArtifactDB
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: unity-project-2\Library\Artifacts\00\0022f131678279bd6011fa7a6d5190b8
     fullPath: C:\Users\dreha\source\repos\Roll-a-ball\unity-project-2\Library\Artifacts\00\0022f131678279bd6011fa7a6d5190b8
     projectPath: Library\Artifacts\00\0022f131678279bd6011fa7a6d5190b8
@@ -358,15 +352,51 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: unity-project-2\Library\Artifacts\5a\5a9fa75e04dc60988e90b8d1e7788da3
+    fullPath: C:\Users\dreha\source\repos\Roll-a-ball\unity-project-2\Library\Artifacts\5a\5a9fa75e04dc60988e90b8d1e7788da3
+    projectPath: Library\Artifacts\5a\5a9fa75e04dc60988e90b8d1e7788da3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity-project-2\Library\Artifacts\64\64ebdb2492bacff4f95135b05bb94730
+    fullPath: C:\Users\dreha\source\repos\Roll-a-ball\unity-project-2\Library\Artifacts\64\64ebdb2492bacff4f95135b05bb94730
+    projectPath: Library\Artifacts\64\64ebdb2492bacff4f95135b05bb94730
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity-project-2\Library\Artifacts\65\6509a931e2a5db438d76bca10f045cd5
+    fullPath: C:\Users\dreha\source\repos\Roll-a-ball\unity-project-2\Library\Artifacts\65\6509a931e2a5db438d76bca10f045cd5
+    projectPath: Library\Artifacts\65\6509a931e2a5db438d76bca10f045cd5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: unity-project-2\Library\Artifacts\65\6585121cb9397e61395468f0a9a9ad61
     fullPath: C:\Users\dreha\source\repos\Roll-a-ball\unity-project-2\Library\Artifacts\65\6585121cb9397e61395468f0a9a9ad61
     projectPath: Library\Artifacts\65\6585121cb9397e61395468f0a9a9ad61
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: unity-project-2\Library\Artifacts\68\6852469fe938bff0e80be7b87d12dc30
+    fullPath: C:\Users\dreha\source\repos\Roll-a-ball\unity-project-2\Library\Artifacts\68\6852469fe938bff0e80be7b87d12dc30
+    projectPath: Library\Artifacts\68\6852469fe938bff0e80be7b87d12dc30
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity-project-2\Library\Artifacts\68\687d231882d437445a2c981dcd548f5a
+    fullPath: C:\Users\dreha\source\repos\Roll-a-ball\unity-project-2\Library\Artifacts\68\687d231882d437445a2c981dcd548f5a
+    projectPath: Library\Artifacts\68\687d231882d437445a2c981dcd548f5a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: unity-project-2\Library\Artifacts\83\83981d28c323d9967c2e3c850762066c
     fullPath: C:\Users\dreha\source\repos\Roll-a-ball\unity-project-2\Library\Artifacts\83\83981d28c323d9967c2e3c850762066c
     projectPath: Library\Artifacts\83\83981d28c323d9967c2e3c850762066c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity-project-2\Library\Artifacts\95\95dab9b32d6c587a74542598f8b3b187
+    fullPath: C:\Users\dreha\source\repos\Roll-a-ball\unity-project-2\Library\Artifacts\95\95dab9b32d6c587a74542598f8b3b187
+    projectPath: Library\Artifacts\95\95dab9b32d6c587a74542598f8b3b187
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -400,6 +430,18 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: unity-project-2\Library\Artifacts\b2\b26fd233e4676aa8a751b76496a2718c
+    fullPath: C:\Users\dreha\source\repos\Roll-a-ball\unity-project-2\Library\Artifacts\b2\b26fd233e4676aa8a751b76496a2718c
+    projectPath: Library\Artifacts\b2\b26fd233e4676aa8a751b76496a2718c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity-project-2\Library\Artifacts\b4\b462ce746bcee944609399086b18eb74
+    fullPath: C:\Users\dreha\source\repos\Roll-a-ball\unity-project-2\Library\Artifacts\b4\b462ce746bcee944609399086b18eb74
+    projectPath: Library\Artifacts\b4\b462ce746bcee944609399086b18eb74
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: unity-project-2\Library\Artifacts\bd\bdd9d06b1225707d4e2fdfcf231b19be
     fullPath: C:\Users\dreha\source\repos\Roll-a-ball\unity-project-2\Library\Artifacts\bd\bdd9d06b1225707d4e2fdfcf231b19be
     projectPath: Library\Artifacts\bd\bdd9d06b1225707d4e2fdfcf231b19be
@@ -409,6 +451,12 @@ MonoBehaviour:
   - path: unity-project-2\Library\Artifacts\be\be702432a4540a1a9dd9f62551e721a6
     fullPath: C:\Users\dreha\source\repos\Roll-a-ball\unity-project-2\Library\Artifacts\be\be702432a4540a1a9dd9f62551e721a6
     projectPath: Library\Artifacts\be\be702432a4540a1a9dd9f62551e721a6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity-project-2\Library\Artifacts\c3\c3fc637a30cb2e3dad8da9cf0e4583f1
+    fullPath: C:\Users\dreha\source\repos\Roll-a-ball\unity-project-2\Library\Artifacts\c3\c3fc637a30cb2e3dad8da9cf0e4583f1
+    projectPath: Library\Artifacts\c3\c3fc637a30cb2e3dad8da9cf0e4583f1
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -439,6 +487,12 @@ MonoBehaviour:
   - path: unity-project-2\Library\Artifacts\d1\d144202e77ce9de9bf68bec30507b8d6
     fullPath: C:\Users\dreha\source\repos\Roll-a-ball\unity-project-2\Library\Artifacts\d1\d144202e77ce9de9bf68bec30507b8d6
     projectPath: Library\Artifacts\d1\d144202e77ce9de9bf68bec30507b8d6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity-project-2\Library\Artifacts\da\daa461b8b183df5ef3d97fea1011a58f
+    fullPath: C:\Users\dreha\source\repos\Roll-a-ball\unity-project-2\Library\Artifacts\da\daa461b8b183df5ef3d97fea1011a58f
+    projectPath: Library\Artifacts\da\daa461b8b183df5ef3d97fea1011a58f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -1413,28 +1467,10 @@ MonoBehaviour:
     projectPath: Library\gfu\cache\gitlog.yaml
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: unity-project-2\Library\gfu\cache\gitstatusentries.yaml
-    fullPath: C:\Users\dreha\source\repos\Roll-a-ball\unity-project-2\Library\gfu\cache\gitstatusentries.yaml
-    projectPath: Library\gfu\cache\gitstatusentries.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    workTreeStatus: 5
   - path: unity-project-2\Library\gfu\cache\gittrackingstatus.yaml
     fullPath: C:\Users\dreha\source\repos\Roll-a-ball\unity-project-2\Library\gfu\cache\gittrackingstatus.yaml
     projectPath: Library\gfu\cache\gittrackingstatus.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: unity-project-2\Library\gfu\cache\repoinfo.yaml
-    fullPath: C:\Users\dreha\source\repos\Roll-a-ball\unity-project-2\Library\gfu\cache\repoinfo.yaml
-    projectPath: Library\gfu\cache\repoinfo.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: unity-project-2\Library\Search\transactions.db
-    fullPath: C:\Users\dreha\source\repos\Roll-a-ball\unity-project-2\Library\Search\transactions.db
-    projectPath: Library\Search\transactions.db
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -1846,12 +1882,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: unity-project-2\Library\SourceAssetDB
-    fullPath: C:\Users\dreha\source\repos\Roll-a-ball\unity-project-2\Library\SourceAssetDB
-    projectPath: Library\SourceAssetDB
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: unity-project-2\Logs\AssetImportWorker0.log
     fullPath: C:\Users\dreha\source\repos\Roll-a-ball\unity-project-2\Logs\AssetImportWorker0.log
     projectPath: Logs\AssetImportWorker0.log
