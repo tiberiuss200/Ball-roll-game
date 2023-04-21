@@ -1,0 +1,357 @@
+Using pre-set license
+Built from '2022.1/staging' branch; Version is '2022.1.19f1 (2fd7b40534d1) revision 3135412'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 16026 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2022.1.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Users/dreha/source/repos/Roll-a-ball/unity-project-2
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+51625
+Successfully changed project path to: C:/Users/dreha/source/repos/Roll-a-ball/unity-project-2
+C:/Users/dreha/source/repos/Roll-a-ball/unity-project-2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 273.79 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.1.19f1 (2fd7b40534d1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.1.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/dreha/source/repos/Roll-a-ball/unity-project-2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics (ID=0x9a78)
+    Vendor:   Intel
+    VRAM:     8013 MB
+    Driver:   30.0.101.1029
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2022.1.19f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2022.1.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2022.1.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56804
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2022.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003949 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 162.62 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.086 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1087ms)
+		BeginReloadAssembly (135ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (720ms)
+			LoadAssemblies (132ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (178ms)
+				TypeCache.Initialize (177ms)
+					TypeCache.ScanAssembly (176ms)
+				ResolveRequiredComponents (1ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (413ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (12ms)
+				RefreshPlugins (163ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (183ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010306 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\dreha\source\repos\Roll-a-ball\unity-project-2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\dreha\source\repos\Roll-a-ball\unity-project-2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 130.14 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.449 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2450ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (2224ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (364ms)
+				TypeCache.Initialize (352ms)
+					TypeCache.ScanAssembly (345ms)
+				ResolveRequiredComponents (12ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (1609ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (130ms)
+				BeforeProcessingInitializeOnLoad (170ms)
+				ProcessInitializeOnLoadAttributes (1139ms)
+				ProcessInitializeOnLoadMethodAttributes (149ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 1.42 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5684 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (384.3 KB). Loaded Objects now: 6133.
+Memory consumption went from 0.87 GB to 0.87 GB.
+Total: 11.046900 ms (FindLiveObjects: 2.121200 ms CreateObjectMapping: 2.572500 ms MarkObjects: 6.087100 ms  DeleteObjects: 0.264400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 37347.668335 seconds.
+  path: Assets/Models/Hamster/Hamster.fbx
+  artifactKey: Guid(54814ea74bf59e24dbd42f1166d8b67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Hamster/Hamster.fbx using Guid(54814ea74bf59e24dbd42f1166d8b67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27a04971ba4a23faef56e5fb3b3c4c50') in 2.806113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Models/Hamster/HamsterLegTexture.png
+  artifactKey: Guid(ef238f6298cb21649bf702bac31e1aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Hamster/HamsterLegTexture.png using Guid(ef238f6298cb21649bf702bac31e1aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad4fd165ffb4d98d71ce138573618603') in 0.051234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Models/Cat/HamsterSkullTexture.png
+  artifactKey: Guid(81b7ced334368cb4793882d2403f95ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Cat/HamsterSkullTexture.png using Guid(81b7ced334368cb4793882d2403f95ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '075233ca13cfaee90e213d6d24c9b779') in 0.033835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Models/Cat/HamsterLeg4Texture.png
+  artifactKey: Guid(04a85e2db34fa6044947040684a88da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Cat/HamsterLeg4Texture.png using Guid(04a85e2db34fa6044947040684a88da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afd540bee2f9edfcbdb9cc8e0ef68782') in 0.032110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Models/Hamster/HamsterLeg4Texture.png
+  artifactKey: Guid(c55dfcbf336c6fe4589e30707ed3eb1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Hamster/HamsterLeg4Texture.png using Guid(c55dfcbf336c6fe4589e30707ed3eb1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25b86db79745dff72e19db4c0c7b7f3b') in 0.020866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Models/Hamster/HamsterBodyTexture.png
+  artifactKey: Guid(1ad8799337fa33d4cb1802bfd65000da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Hamster/HamsterBodyTexture.png using Guid(1ad8799337fa33d4cb1802bfd65000da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfce57edb4fb664ccab2b699c8e52875') in 0.042598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Models/Cat/HamsterLegTexture.png
+  artifactKey: Guid(59b80dd1d03b2944fa88b0d8e387f74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Cat/HamsterLegTexture.png using Guid(59b80dd1d03b2944fa88b0d8e387f74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3da814daf224ac117975560cee39fc4f') in 0.019661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Models/Cat/HamsterLeg2Texture.png
+  artifactKey: Guid(5e87adf432b9a3f42acfa43aae9642eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Cat/HamsterLeg2Texture.png using Guid(5e87adf432b9a3f42acfa43aae9642eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a4f9af29f456f6314e02a3e6796e37a') in 0.032384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Models/Hamster/HamsterEarTexture.png
+  artifactKey: Guid(3192b5b9ac266f945bc0fd0b15e2d74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Hamster/HamsterEarTexture.png using Guid(3192b5b9ac266f945bc0fd0b15e2d74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a32474a2b9419b9ad3d27b0bfb75213e') in 0.041309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Models/Cat/HamsterEarTexture.png
+  artifactKey: Guid(588a1bcdb2b928a4fb5eb74b60f928c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Cat/HamsterEarTexture.png using Guid(588a1bcdb2b928a4fb5eb74b60f928c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0652ef0a8c59bc5bff27d82a081b7a3c') in 0.023165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Models/Cat/HamsterLeg3Texture.png
+  artifactKey: Guid(a8b1d271c83cf2742a0aa61fa6fdf522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Cat/HamsterLeg3Texture.png using Guid(a8b1d271c83cf2742a0aa61fa6fdf522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1f6db770c8faf03b672782bb3847b98') in 0.036151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Models/Cat
+  artifactKey: Guid(1df001899a575d3478ba74a4bfa57981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Cat using Guid(1df001899a575d3478ba74a4bfa57981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dbb695024518b6d5341524793705b18') in 0.013148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Models/Hamster/HamsterEar2Texture.png
+  artifactKey: Guid(8c4bb0933e6d83747b16b33a919d6eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Hamster/HamsterEar2Texture.png using Guid(8c4bb0933e6d83747b16b33a919d6eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac08d3c587d18a91a00011d80b1cb2c2') in 0.045875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Models/Hamster/HamsterLeg2Texture.png
+  artifactKey: Guid(7e3c34aa5b2c55645b240c62a8014008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Hamster/HamsterLeg2Texture.png using Guid(7e3c34aa5b2c55645b240c62a8014008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b226eec5557de2a44ac3eca5a1955e0b') in 0.020244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Models/Hamster/HamsterSkullTexture.png
+  artifactKey: Guid(2a6e28050e087c34d8e92eeeb2978e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Hamster/HamsterSkullTexture.png using Guid(2a6e28050e087c34d8e92eeeb2978e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c838766b8bfad48f30597f906beee6') in 0.028943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Models/Cat/HamsterEar2Texture.png
+  artifactKey: Guid(7fa51521f345f9043bd0ecd0d83e2631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Cat/HamsterEar2Texture.png using Guid(7fa51521f345f9043bd0ecd0d83e2631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '226fa50540fd0401c1b03a03a984a096') in 0.024092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Models/Hamster/HamsterLeg3Texture.png
+  artifactKey: Guid(edf079ec2813fe347ad82df622f18287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Hamster/HamsterLeg3Texture.png using Guid(edf079ec2813fe347ad82df622f18287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f830b68c2cd32a5cb71fbff226bc3ce3') in 0.021626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Models/Cat/Hamster.fbx
+  artifactKey: Guid(88bd97e97bfa23844b9af828472ae9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Cat/Hamster.fbx using Guid(88bd97e97bfa23844b9af828472ae9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c1a961b6257f7a395eca08ad53c4c3c') in 0.388196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Models/Cat/HamsterBodyTexture.png
+  artifactKey: Guid(728192da884cebd4784ed74f3a943a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Cat/HamsterBodyTexture.png using Guid(728192da884cebd4784ed74f3a943a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7aa7ef9c138495e61b7af3ccfe465ba') in 0.025262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.570348 seconds.
+  path: Assets/Models
+  artifactKey: Guid(4ea34c7834dce3d449f2fd5c5f6b6710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models using Guid(4ea34c7834dce3d449f2fd5c5f6b6710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e792470346f4274bd1f818c9d153b490') in 0.009983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.433050 seconds.
+  path: Assets/Models/Cat/BlackCat_Hamster.fbx
+  artifactKey: Guid(1bc8c00b312dacd42a2f292e34d004fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Cat/BlackCat_Hamster.fbx using Guid(1bc8c00b312dacd42a2f292e34d004fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aac2db2e13d9f4016416ea3a0ce2ab45') in 0.273072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Models/Cat/CatEarTexture.png
+  artifactKey: Guid(7665113e233503646b8d1a4e047ca41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Cat/CatEarTexture.png using Guid(7665113e233503646b8d1a4e047ca41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08f14f65de0058d5c4fda4e00f2bbcad') in 0.041497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Models/Cat/CatBodyTexture.png
+  artifactKey: Guid(82cd4f82f9826dd4c9d3f660446670b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Cat/CatBodyTexture.png using Guid(82cd4f82f9826dd4c9d3f660446670b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '289eae5eb057d7fbe7d49ceeeae30793') in 0.089131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Models/Cat/CatSkullTexture.png
+  artifactKey: Guid(6f83e69a5d44aef46b5078f607395ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Cat/CatSkullTexture.png using Guid(6f83e69a5d44aef46b5078f607395ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd17c07781c28f46b268333e73f0242c2') in 0.095959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Models/Cat/CatLegTexture.png
+  artifactKey: Guid(527ba3955c3518f44b4b11d4de604754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Cat/CatLegTexture.png using Guid(527ba3955c3518f44b4b11d4de604754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca3efdf8c5ebb2d08190faf2aa02f6bd') in 0.065845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Models/Cat/CatTailTexture.png
+  artifactKey: Guid(7a594e629e2443f45aee7b8ba760a34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Cat/CatTailTexture.png using Guid(7a594e629e2443f45aee7b8ba760a34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c94dbf3fd19ab0f6ba8e23a0660ee71') in 0.057249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Models/Cat/CatEar2Texture.png
+  artifactKey: Guid(d959ee16a1f278542be50b6a23b74150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Cat/CatEar2Texture.png using Guid(d959ee16a1f278542be50b6a23b74150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77f48a74079048c49e3d11070251f8e2') in 0.066514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 209.397750 seconds.
+  path: Assets/materials/Background.mat
+  artifactKey: Guid(0d1f2a01d69f8403dbe1474e60c291a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/Background.mat using Guid(0d1f2a01d69f8403dbe1474e60c291a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3855d3e477a7467e8e4e87dcc1552f3') in 0.042668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/materials/Background 1.mat
+  artifactKey: Guid(a0cc508d7bf9d486eb87a5443813f631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/Background 1.mat using Guid(a0cc508d7bf9d486eb87a5443813f631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53e06bdb948db1a51844b24475ae1c64') in 0.038842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/materials/walls.mat
+  artifactKey: Guid(72ffaecfa796540fb8d93d338d380564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/walls.mat using Guid(72ffaecfa796540fb8d93d338d380564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bac5d2eb5589204d1902158a80dfed1b') in 0.034220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/materials/player.mat
+  artifactKey: Guid(56e888fd302e142ed9bba7e9ee2635c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/player.mat using Guid(56e888fd302e142ed9bba7e9ee2635c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f84f06076dae23861a6548e56dde96a') in 0.054594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 125.099043 seconds.
+  path: Assets/Models/Hamster
+  artifactKey: Guid(d6858e698b7610341b0787cbb0051ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Hamster using Guid(d6858e698b7610341b0787cbb0051ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba0db3a44e91f856cb23bedc18a12009') in 0.005031 seconds 

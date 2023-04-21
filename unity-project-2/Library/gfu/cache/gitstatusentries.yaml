@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: com.spoiledcat.git.ui:Unity.VersionControl.Git:GitStatusCache
   cacheType: 6
-  lastUpdatedAtString: 2023-04-20T18:29:05.617-04:00
+  lastUpdatedAtString: 2023-04-20T18:31:05.025-04:00
   initializedAtString: 2023-04-20T18:26:10.344-04:00
   entries:
   - path: unity-project-2\Assets\Models.meta
@@ -1462,12 +1462,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: unity-project-2\Library\gfu\cache\gitlog.yaml
-    fullPath: C:\Users\dreha\source\repos\Roll-a-ball\unity-project-2\Library\gfu\cache\gitlog.yaml
-    projectPath: Library\gfu\cache\gitlog.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: unity-project-2\Library\gfu\cache\gittrackingstatus.yaml
     fullPath: C:\Users\dreha\source\repos\Roll-a-ball\unity-project-2\Library\gfu\cache\gittrackingstatus.yaml
     projectPath: Library\gfu\cache\gittrackingstatus.yaml
