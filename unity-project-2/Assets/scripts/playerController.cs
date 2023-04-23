@@ -20,6 +20,7 @@
 
 
 
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -37,7 +38,7 @@ public class playerController : MonoBehaviour
     private float movementX;
     private float movementY;
     private Vector3 playerStartPos;
-
+    public AudioSource CheeseSound;
     // Start is called before the first frame update
     void Start()
     {
@@ -77,6 +78,7 @@ public class playerController : MonoBehaviour
     {
         if (other.gameObject.CompareTag("pickup"))
         {
+            CheeseSound.Play();
             other.gameObject.SetActive(false);
             count++;
             SetCountText();
