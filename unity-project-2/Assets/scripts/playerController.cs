@@ -80,7 +80,6 @@ public class playerController : MonoBehaviour
         {
             angleToVector = Vector2.Angle(new Vector2(cameraRotation.x, cameraRotation.z), new Vector2(0, -1)) + 180f;
         }
-        Debug.Log(angleToVector);
         
         Vector3 finalMovementVector = Quaternion.AngleAxis(angleToVector, Vector3.up) * new Vector3(sideInput, 0, forwardInput);
         
