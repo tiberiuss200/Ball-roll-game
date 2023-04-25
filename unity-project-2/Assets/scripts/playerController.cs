@@ -35,15 +35,15 @@ public class playerController : MonoBehaviour
     public GameObject winTextObject;
     private Rigidbody rb;
     private int count;
-    private float movementX;
-    private float movementY;
+    private float sideInput;
+    private float forwardInput;
     private Vector3 playerStartPos;
     public AudioSource CheeseSound;
     // Start is called before the first frame update
     void Start()
     {
         playerStartPos = transform.position;
-        speed = 10;
+        speed = 15;
         rb = GetComponent<Rigidbody>();
         count = 0;
         SetCountText();
@@ -54,9 +54,8 @@ public class playerController : MonoBehaviour
     {
         Vector2 movementVector = movementValue.Get<Vector2>();
 
-        movementX = movementVector.x;
-        movementY = movementVector.y;
-
+        sideInput = movementVector.x;
+        forwardInput = movementVector.y;
     }
 
     void SetCountText()
@@ -70,8 +69,22 @@ public class playerController : MonoBehaviour
 
     void FixedUpdate()
     {
-        Vector3 movement = new Vector3(movementX, 0.0f, movementY);
-        rb.AddForce(movement * speed);
+        float angleToVector;
+        Vector3 cameraRotation = playerCamera.gameObject.transform.forward;
+        Vector2 inputVector = new Vector2(sideInput, forwardInput);
+        if(cameraRotation.x > 0) //Finds the angle the player is currently facing and stores it in the angleToVector float
+        {
+            angleToVector = Vector2.Angle(new Vector2(cameraRotation.x, cameraRotation.z), new Vector2(0, 1));
+        }
+        else
+        {
+            angleToVector = Vector2.Angle(new Vector2(cameraRotation.x, cameraRotation.z), new Vector2(0, -1)) + 180f;
+        }
+        Debug.Log(angleToVector);
+        
+        Vector3 finalMovementVector = Quaternion.AngleAxis(angleToVector, Vector3.up) * new Vector3(sideInput, 0, forwardInput);
+        
+        rb.AddForce(finalMovementVector * speed);
     }
 
     private void OnTriggerEnter(Collider other)
