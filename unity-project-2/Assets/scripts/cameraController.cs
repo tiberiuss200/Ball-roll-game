@@ -9,18 +9,14 @@ public class cameraController : MonoBehaviour
     public float turnSpd;
     public float cameraTilt;
     private Vector3 playerMovementDirection;
-    private Vector3 offset;
     Rigidbody rb;
-    // Start is called before the first frame update
     void Start()
     {
         cameraDistance = 4f;
         turnSpd = 5;
-        cameraTilt = 0.4f;
+        cameraTilt = 1.5f;
         rb = player.GetComponent<Rigidbody>();
     }
-
-    // Update is called once per frame
     void LateUpdate()
     {
         playerMovementDirection = rb.velocity;
@@ -30,6 +26,6 @@ public class cameraController : MonoBehaviour
             transform.rotation = Quaternion.Lerp(transform.rotation, rotation, Time.deltaTime * turnSpd);
         }
 
-        transform.position = player.transform.position + cameraDistance*Vector3.up;
+        transform.position = player.transform.position - transform.forward * 7f;
     }
 }

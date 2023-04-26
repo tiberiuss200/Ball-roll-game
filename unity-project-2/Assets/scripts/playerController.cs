@@ -70,8 +70,8 @@ public class playerController : MonoBehaviour
     void FixedUpdate()
     {
         float angleToVector;
-        Vector3 cameraRotation = playerCamera.gameObject.transform.forward;
-        Vector2 inputVector = new Vector2(sideInput, forwardInput);
+        Vector3 cameraRotation = Camera.main.gameObject.transform.forward;
+        
         if(cameraRotation.x > 0) //Finds the angle the player is currently facing and stores it in the angleToVector float
         {
             angleToVector = Vector2.Angle(new Vector2(cameraRotation.x, cameraRotation.z), new Vector2(0, 1));
@@ -98,6 +98,9 @@ public class playerController : MonoBehaviour
         else if (other.gameObject.CompareTag("hole") && count >= cheeseGoal) //If the player touches the hole after getting all of the cheese
         {
             //TIBERIUS, THE END LEVEL SCRIPT GOES HERE*************************************************************************************************************************************
+
+            // The script below allows the gameobject to remain during scene switching, so make sure that other scene files don't include a copy of the player object
+            DontDestroyOnLoad(gameObject);
         }
 
     }
