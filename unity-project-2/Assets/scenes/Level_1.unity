@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.2257134, b: 0.30692226, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571336, b: 0.3069219, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -333,7 +333,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &197293641
 GameObject:
@@ -1443,7 +1443,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 71.8, y: 271.4}
+  m_AnchoredPosition: {x: 170, y: 107}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &665754894
@@ -2021,7 +2021,7 @@ Transform:
   m_Children:
   - {fileID: 1421966722}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1034186736
 GameObject:
@@ -3020,10 +3020,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  cheeseGoal: 0
+  cheeseGoal: 4
   countText: {fileID: 1187994881}
   winTextObject: {fileID: 665754892}
-  CheeseSound: {fileID: 1421966723}
   playerCamera: {fileID: 2145448785}
   count: 0
   sideInput: 0
@@ -4440,7 +4439,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78ce20018fe174a43ba035db99ad7e0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 1543763069}
+  cameraDistance: 0
+  turnSpd: 0
+  cameraTilt: 0
 --- !u!114 &2145448787
 MonoBehaviour:
   m_ObjectHideFlags: 0

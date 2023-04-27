@@ -594,7 +594,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1920, y: 1080}
+  m_SizeDelta: {x: 633, y: 288}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1385673454
 MonoBehaviour:
@@ -917,7 +917,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -8, y: 453}
+  m_AnchoredPosition: {x: -9, y: 550}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2082961642
@@ -943,8 +943,8 @@ MonoBehaviour:
   m_text: 'CREDITS:
 
 
-    Creators: joseph burgos, drew alden, andre harris, katherine
-    ringeisen, tiberius thaub
+    Creators: Joseph Burgos, Drew Alden, Andre Harris, Katherine
+    Ringeisen, Tiberius Shaub
 
 
     Foundation- https://learn.unity.com/project/roll-a-ball
@@ -978,8 +978,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1014,7 +1014,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -198.15973, y: 55.970856, z: -195.38165, w: -206.06253}
+  m_margin: {x: -198.15973, y: 437.07983, z: -177.04883, w: -675.0824}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
