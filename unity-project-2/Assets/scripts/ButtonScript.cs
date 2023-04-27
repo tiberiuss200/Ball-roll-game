@@ -7,7 +7,7 @@ public class ButtonScript : MonoBehaviour
 {
     public void startgame()
     {
-        SceneManager.LoadScene("Game Scene");
+        SceneManager.LoadScene("Level_1");
     }
 
     public void starttutorial()
@@ -22,7 +22,12 @@ public class ButtonScript : MonoBehaviour
 
     public void creditsButton()
     {
-        SceneManager.LoadScene("CreditsButton");
+        SceneManager.LoadScene("Credit Scene");
+    }
+
+    public void tutorialMap()
+    {
+        SceneManager.LoadScene("Tutorial_map");
     }
 
 
