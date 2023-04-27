@@ -38,6 +38,8 @@ public class playerController : MonoBehaviour
     public float sideInput;
     public float forwardInput;
     private Vector3 playerStartPos;
+    public AudioSource sound1;
+    public AudioSource sound2;
 
     // Start is called before the first frame update
     void Start()
@@ -91,6 +93,7 @@ public class playerController : MonoBehaviour
     {
         if (other.gameObject.CompareTag("pickup"))
         {
+            sound1.Play();
             other.gameObject.SetActive(false);
             count++;
             SetCountText();
@@ -106,6 +109,7 @@ public class playerController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Enemy"))
         {
+            sound2.Play();
             transform.position = playerStartPos;
         }
     }
